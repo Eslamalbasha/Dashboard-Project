@@ -13,6 +13,7 @@ import CartItemPage from "../component/cartItem/CartItem";
 import ReviesPage from "../component/reviews/Reviews";
 import ContactPage from "../component/contactUs/Contact";
 import FavoritePage from "../component/favoriteList/Favorite";
+import StaticPage from "../component/staticPage/StaticPage";
 
 // import EditPage from "../component/Home/edit/Edit";
 // import SideBar from "../SideBar";
@@ -45,6 +46,7 @@ const RouterPage = () => {
           <Route path="revies" element={<ReviesPage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="favorite" element={<FavoritePage />} />
+          <Route path="static" element={<StaticPage />} />
         </Route>
 
         {/* <Route path="/login" element={<LoginPage />} />

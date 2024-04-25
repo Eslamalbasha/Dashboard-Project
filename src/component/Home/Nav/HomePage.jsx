@@ -481,7 +481,7 @@ const HomePage = () => {
                 </li>
                 <li>
                   <NavLink
-                    to=""
+                    to="/static"
                     style={{
                       padding: "10px",
                       justifyContent: "space-around",
