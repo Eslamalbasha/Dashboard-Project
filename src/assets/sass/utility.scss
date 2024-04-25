@@ -1,0 +1,123 @@
+.input-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  // flex-direction: column;
+  margin-bottom: 30px;
+
+  position: relative;
+  label {
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-bottom: 1px;
+    transition: 0.3s;
+  }
+  input,
+  textarea,
+  select {
+    all: unset;
+    border-radius: 6px;
+    color: #7d8fa9;
+    font-size: 16px;
+    padding: 10px 10px;
+    border: 1px solid #98b98c;
+    background: #ffffff;
+    transition: 0.3s;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+  input[name="image"] {
+    display: none;
+  }
+
+  input[name="image"] + label {
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 5px 35px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+    background: var(--btn-color);
+  }
+  .img-holder {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin: 20px;
+    margin-bottom: 60px;
+    border-radius: 26px;
+    img {
+      width: 100%;
+      min-height: 100%;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+  }
+}
+.search-bar {
+  padding: 6px 17px;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  width: 320px;
+  input {
+    all: unset;
+    margin-right: 16px;
+  }
+}
+.btn-holder {
+  button,
+  a {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fdfdfd;
+    font-weight: 600;
+    padding: 12px 17px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 35px;
+
+    filter: brightness(100%);
+    transition: 0.3s;
+  }
+  button:hover,
+  a:hover {
+    filter: brightness(105%);
+  }
+  .blue {
+    background: #98b98c;
+  }
+
+  .brown {
+    background: #a99580;
+  }
+  .red {
+    background: #ff2f2f;
+  }
+  .green {
+    background: #57b300;
+  }
+  .gray {
+    color: red;
+    background: rebeccapurple;
+    border: 2px solid yellow;
+  }
+}
+nav .active {
+  background-color: #98b98c;
+}
