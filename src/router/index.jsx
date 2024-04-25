@@ -14,6 +14,9 @@ import ReviesPage from "../component/reviews/Reviews";
 import ContactPage from "../component/contactUs/Contact";
 import FavoritePage from "../component/favoriteList/Favorite";
 import StaticPage from "../component/staticPage/StaticPage";
+import EditPage from "../component/Home/edit/Edit";
+import ViewDetalisPage from "../component/Home/View/ViewDetails";
+import Delete from "../component/Home/Delete";
 
 // import EditPage from "../component/Home/edit/Edit";
 // import SideBar from "../SideBar";
@@ -48,6 +51,9 @@ const RouterPage = () => {
           <Route path="favorite" element={<FavoritePage />} />
           <Route path="static" element={<StaticPage />} />
         </Route>
+        <Route path="edit" element={<EditPage />} />
+        <Route path="viewdetalis" element={<ViewDetalisPage />} />
+        <Route path="/remove" element={<Delete />} />
 
         {/* <Route path="/login" element={<LoginPage />} />
         <Route path="/forget-password" element={<ForgetPassWord />} />

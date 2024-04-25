@@ -1,15 +1,12 @@
-import avatar from "../../../assets/icons/avater.svg";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import avatar from "../../../assets/icons/avater1.svg";
 
-const EditPage = () => {
+const ViewDetalisPage = () => {
   return (
     <div style={{ backgroundColor: "#F8F3F3", height: "900px" }}>
       <div>
         <div>
           <div>
-            <p className="absolute top-10 left-52 text-4xl "> Editing</p>
+            <p className="absolute top-10 left-52 text-4xl "> View Detalis</p>
             <div>
               <div className="flex justify-center    ">
                 <div>
@@ -22,24 +19,6 @@ const EditPage = () => {
                   <img src={avatar} className=" mr-4 mt-5 mb-7 w-28" />
                 </div>
               </div>
-              {/* <div>
-                <input id="image" placeholder="" type="file" name="image" />
-                {/* <input
-                  id="image"
-                  placeholder=""
-                  type="file"
-                  name="image"
-                  // onChange={handleFileChange}
-                />
-
-                <input
-                  id="image"
-                  placeholder=""
-                  type="file"
-                  name="image"
-                  // onChange={handleFileChange}
-                /> */}
-              {/* </div>  */}
             </div>
           </div>
         </div>
@@ -522,37 +501,6 @@ const EditPage = () => {
                 // onChange={handleInputChange}
               />
             </div>
-            <div>
-              <Link
-                style={{
-                  backgroundColor: "#98B98C",
-                  borderRadius: "8px",
-                  color: "#FDFDFD",
-                  padding: "7px 12px",
-                  fontSize: "20px",
-
-                  position: "absolute",
-                  right: "320px",
-                  bottom: "-140px",
-                }}
-              >
-                Cancel
-              </Link>
-              <Link
-                style={{
-                  backgroundColor: "#98B98C",
-                  borderRadius: "8px",
-                  color: "#FDFDFD",
-                  padding: "7px 12px",
-                  fontSize: "20px",
-                  position: "absolute",
-                  right: "450px",
-                  bottom: "-140px",
-                }}
-              >
-                Save
-              </Link>
-            </div>
           </div>
         </div>
       </div>
@@ -560,4 +508,4 @@ const EditPage = () => {
   );
 };
 
-export default EditPage;
+export default ViewDetalisPage;
