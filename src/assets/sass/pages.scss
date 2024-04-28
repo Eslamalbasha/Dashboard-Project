@@ -1,0 +1,129 @@
+.page-styel {
+  position: absolute;
+  top: 80px;
+  left: 207px;
+  width: 1136px;
+}
+.btn-styel {
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 5px 1px;
+  text-align: center;
+}
+.active {
+  background: #dcf6e8;
+  color: #28c76f;
+}
+.approved {
+  background: #b4faa9;
+  color: #16a400;
+}
+.Canceled {
+  background: #f7e6e6;
+  color: #e56873;
+}
+.progress {
+  background: #ebf2fb;
+  color: #4891f9;
+}
+.shipped {
+  background: #fdfdfd;
+  color: #fcbb43;
+}
+.delivered {
+  color: #00a75c;
+  background: #e6f7f0;
+}
+.homepage {
+  position: absolute;
+  left: 207px;
+  background: #98b98c;
+  height: 80px;
+  width: 1136px;
+  z-index: 2;
+}
+.side {
+  img {
+    filter: brightness(140%);
+    width: 120px;
+    left: 30px;
+    position: absolute;
+  }
+  .NavLink {
+    padding: 10px;
+    justify-content: space-around;
+    font-weight: 600;
+    color: #3b4758;
+  }
+  .nav .active {
+    background: #dffad5;
+  }
+}
+.table {
+  position: absolute;
+  top: 80px;
+  left: 207px;
+  width: 1136px;
+  .btn-styel {
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px 1px;
+    text-align: center;
+  }
+
+  .pended {
+    background: #ffefe1;
+    color: #ff9e43;
+  }
+  .rejected {
+    background: #f7e6e6;
+    color: #e56873;
+  }
+}
+.userpage {
+  .active {
+    background: #b4faa9;
+    color: #16a400;
+  }
+  .suspended {
+    background: #ffefe1;
+    color: #ff9e43;
+  }
+}
+.RolePage {
+  position: absolute;
+  top: 190px;
+  left: 240px;
+  width: 1100px;
+  .title {
+    position: absolute;
+    top: -70px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5d5a68;
+  }
+}
+.serviespage {
+  .inactive {
+    background: #f1f1f2;
+    color: #95969c;
+  }
+}
+.editpage {
+  background-color: #f8f3f3;
+  height: 900px;
+  .edit-input {
+    display: flex;
+    justify-content: center;
+  }
+  label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3b4758;
+  }
+  input {
+    width: 150px;
+    height: 8px;
+    margin-right: 120px;
+  }
+}

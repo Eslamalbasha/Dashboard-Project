@@ -53,7 +53,7 @@ const RouterPage = () => {
         </Route>
         <Route path="edit" element={<EditPage />} />
         <Route path="viewdetalis" element={<ViewDetalisPage />} />
-        <Route path="/remove" element={<Delete />} />
+        <Route path="remove" element={<Delete />} />
 
         {/* <Route path="/login" element={<LoginPage />} />
         <Route path="/forget-password" element={<ForgetPassWord />} />

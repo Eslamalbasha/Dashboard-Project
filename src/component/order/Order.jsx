@@ -1,15 +1,8 @@
 import { Link } from "react-router-dom";
-
+import "../../../src/assets/sass/pages.scss";
 const OrderPage = () => {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "80px",
-        left: "207px",
-        width: "1136px",
-      }}
-    >
+    <div className="page-styel">
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
           <thead className=" bg-[#CBDAC6] h-14 text-center">
@@ -56,18 +49,7 @@ const OrderPage = () => {
                 Mansoura-Bank Masr Street
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#B4FAA9",
-                    color: "#16A400",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Shipped
-                </p>
+                <p className="btn-styel approved">Shipped</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -146,18 +128,7 @@ const OrderPage = () => {
                 Mansoura-Ahmed Maher Street
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#EBF2FB",
-                    color: "#4891F9",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  In Progress
-                </p>
+                <p className="btn-styel  progress ">In Progress</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -238,18 +209,7 @@ const OrderPage = () => {
                 Mansoura-Bank Masr Street
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#F7E6E6",
-                    color: "#E56873",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Canceled
-                </p>
+                <p className="btn-styel Canceled">Canceled</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -328,18 +288,7 @@ const OrderPage = () => {
                 Mansoura-Ahmed Maher Street
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#FDFDFD",
-                    color: "#FCBB43",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Shipped
-                </p>
+                <p className="btn-styel shipped ">Shipped</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -418,18 +367,7 @@ const OrderPage = () => {
                 Mansoura-Ahmed Maher Street
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#E6F7F0",
-                    color: "#00A75C",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Delivered
-                </p>
+                <p className="btn-styel delivered ">Delivered</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">

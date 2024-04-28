@@ -1,20 +1,12 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../../assets/images/logo.png";
 import "../../../assets/sass/utility.scss";
+import "../../../assets/sass/pages.scss";
 // import UserPage from "../../user/UserPage";
 const HomePage = () => {
   return (
     <div>
-      <div
-        style={{
-          position: "absolute",
-          left: "207px",
-          background: "#98B98C",
-          height: "80px",
-          width: "1136px",
-          zIndex: "22",
-        }}
-      >
+      <div className="homepage">
         <div className="relative mt-4 w-60 left-96">
           <label htmlFor="Search" className="sr-only">
             Search
@@ -50,20 +42,10 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex  w-52 flex-col justify-between border-e bg-[#98B98C] ">
-        <div>
+      <div className=" flex  w-52 flex-col justify-between border-e bg-[#98B98C] ">
+        <div className="side">
           <div className="inline-flex size-32 items-center justify-center">
-            <img
-              src={logo}
-              alt=""
-              style={{
-                filter: " brightness(140%)",
-                width: "120px",
-                //   marginLeft: "20px",
-                left: "30px",
-                position: "absolute",
-              }}
-            />
+            <img className="image" src={logo} alt="" />
           </div>
 
           <div className="nav border-t border-gray-100">
@@ -71,13 +53,7 @@ const HomePage = () => {
               <div className="nav py-4">
                 <NavLink
                   to="/"
-                  style={{
-                    padding: "10px",
-                    justifyContent: "space-around",
-                    fontWeight: "600",
-                    color: "#3B4758",
-                  }}
-                  className="t group relative flex justify-center rounded bg-[#DFFAD5] px-2 py-1.5 text-[#3B4758]"
+                  className="NavLink t group relative flex justify-center rounded bg-[#DFFAD5] px-2 py-1.5 text-[#3B4758]"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -109,13 +85,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/users"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700 "
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700 "
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -141,13 +111,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/role"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -174,13 +138,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/service"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -215,13 +173,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/categories"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -248,13 +200,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/subcategiesPage"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -280,13 +226,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/product"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -313,13 +253,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/order"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700 "
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700 "
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -345,13 +279,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/cancelled"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -385,13 +313,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/cartitem"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -418,13 +340,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/revies"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -450,13 +366,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/contact"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700 "
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700 "
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -482,13 +392,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/static"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -515,13 +419,7 @@ const HomePage = () => {
                 <li>
                   <NavLink
                     to="/favorite"
-                    style={{
-                      padding: "10px",
-                      justifyContent: "space-around",
-                      fontWeight: "600",
-                      color: "#3B4758",
-                    }}
-                    className="group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700 mb-6"
+                    className="NavLink group relative flex justify-center rounded px-2 py-1.5 text-[#FDFDFD] bg-[#FDFDFD] hover:bg-[#DFFAD5] hover:text-gray-700 mb-6"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

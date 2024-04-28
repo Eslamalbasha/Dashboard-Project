@@ -1,25 +1,9 @@
+import "../../../src/assets/sass/pages.scss";
+
 const RolePage = () => {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "190px",
-        left: "240px",
-        width: "1100px",
-      }}
-      className="flow-root"
-    >
-      <h1
-        style={{
-          position: "absolute",
-          top: "-70px",
-          fontWeight: "600",
-          fontSize: "20px",
-          color: "#5D5A68",
-        }}
-      >
-        Role Permissions
-      </h1>
+    <div className=" RolePage flow-root">
+      <h1 className="title">Role Permissions</h1>
       <dl className="-my-3 divide-y divide-gray-100 text-sm">
         <div className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-3 sm:gap-4">
           <dt className="font-medium text-[#586A84]">User</dt>

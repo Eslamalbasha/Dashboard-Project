@@ -4,7 +4,7 @@
   justify-content: space-between;
 
   // flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
 
   position: relative;
   label {
@@ -44,7 +44,7 @@
     color: white;
     cursor: pointer;
     width: fit-content;
-    margin: auto;
+    // margin: auto;
     background: var(--btn-color);
   }
   .img-holder {

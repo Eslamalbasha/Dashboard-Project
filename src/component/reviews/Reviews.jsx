@@ -1,15 +1,6 @@
-
-
 const ReviesPage = () => {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "80px",
-        left: "207px",
-        width: "1136px",
-      }}
-    >
+    <div className="page-styel">
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
           <thead className=" bg-[#CBDAC6] h-14 text-center">

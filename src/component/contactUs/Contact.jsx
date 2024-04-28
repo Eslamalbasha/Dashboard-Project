@@ -2,14 +2,7 @@ import { Link } from "react-router-dom";
 
 const ContactPage = () => {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "80px",
-        left: "207px",
-        width: "1136px",
-      }}
-    >
+    <div className="page-styel">
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
           <thead className=" bg-[#CBDAC6] h-14 text-center">
@@ -56,18 +49,7 @@ const ContactPage = () => {
                 1 Dec 2023 10:00 pm
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Solved
-                </p>
+                <p className="btn-styel active">Solved</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -148,18 +130,7 @@ const ContactPage = () => {
                 10 Nov 2023 3:00 pm
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#EBF2FB",
-                    color: "#4891F9",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  In Progress
-                </p>
+                <p className="btn-styel progress">In Progress</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">

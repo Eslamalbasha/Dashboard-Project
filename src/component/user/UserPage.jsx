@@ -1,15 +1,9 @@
 import { Link } from "react-router-dom";
+import "../../../src/assets/sass/pages.scss";
 
 const UserPage = () => {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "80px",
-        left: "207px",
-        width: "1136px",
-      }}
-    >
+    <div className="page-styel userpage">
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
           <thead className=" bg-[#CBDAC6] h-14 text-center">
@@ -46,18 +40,7 @@ const UserPage = () => {
               </td>
 
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#B4FAA9",
-                    color: "#16A400",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -133,18 +116,7 @@ const UserPage = () => {
               </td>
 
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#FFEFE1",
-                    color: "#FF9E43",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Suspended
-                </p>
+                <p className="btn-styel suspended">Suspended</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">

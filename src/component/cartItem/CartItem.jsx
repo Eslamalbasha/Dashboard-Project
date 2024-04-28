@@ -1,13 +1,6 @@
 const CartItemPage = () => {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "80px",
-        left: "207px",
-        width: "1136px",
-      }}
-    >
+    <div className="page-styel">
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
           <thead className=" bg-[#CBDAC6] h-14 text-center">
@@ -57,18 +50,7 @@ const CartItemPage = () => {
                 790.00 EGP
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#F7E6E6",
-                    color: "#E56873",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Out of stock
-                </p>
+                <p className="btn-styel Canceled">Out of stock</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -109,18 +91,7 @@ const CartItemPage = () => {
                 1,407.00 EGP
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  In Stock
-                </p>
+                <p className="btn-styel active">In Stock</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">

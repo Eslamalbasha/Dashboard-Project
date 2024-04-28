@@ -8,17 +8,11 @@ import crochet from "../../assets/icons/subcat6.svg";
 import furnishings from "../../assets/icons/subcat7.svg";
 import shirt from "../../assets/icons/subcat8.svg";
 import pants from "../../assets/icons/subcat9.svg";
+import "../../../src/assets/sass/pages.scss";
 
 const SubCategiesPage = () => {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "80px",
-        left: "207px",
-        width: "1136px",
-      }}
-    >
+    <div className="page-styel subcarpage">
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
           <thead className=" bg-[#CBDAC6] h-14 text-center">
@@ -59,18 +53,7 @@ const SubCategiesPage = () => {
                 Accessories
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -127,18 +110,7 @@ const SubCategiesPage = () => {
                 Accessories
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -195,18 +167,7 @@ const SubCategiesPage = () => {
                 Accessories
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -263,18 +224,7 @@ const SubCategiesPage = () => {
                 Accessories
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -331,18 +281,7 @@ const SubCategiesPage = () => {
                 Sewing
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -400,18 +339,7 @@ const SubCategiesPage = () => {
                 Sewing
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -469,18 +397,7 @@ const SubCategiesPage = () => {
                 Sewing
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -538,18 +455,7 @@ const SubCategiesPage = () => {
                 Knitting
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
@@ -607,18 +513,7 @@ const SubCategiesPage = () => {
                 Knitting
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
-                <p
-                  style={{
-                    background: "#DCF6E8",
-                    color: "#28C76F",
-                    fontWeight: "600",
-                    borderRadius: "10px",
-                    padding: "5px 1px",
-                    textAlign: "center",
-                  }}
-                >
-                  Active
-                </p>
+                <p className="btn-styel active">Active</p>
               </td>
               <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                 <div className="inline-flex rounded-lg p-1">
